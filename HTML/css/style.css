@@ -1,0 +1,229 @@
+* {
+	margin: 1px;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+/* INICIO MENU*/
+nav a {
+	text-decoration: none;
+	color: inherit;
+	font-size: 14px;
+	text-align: center;
+}
+
+nav li {
+	display: inline-block;
+	width: 150px;
+	height: 30px;
+	padding: 5px 10px;
+	background-color: orange;
+	border: 1px solid #000;
+	text-align: center;
+	color: #fff;
+	position: relative;
+}
+
+nav li:hover {
+	background-color: #fff;
+	color: #000;
+}
+
+nav li>ul {
+	display: none;
+}
+
+nav li:hover>ul {
+	display: block;
+	position: absolute;
+	top: 30px;
+	left: 0px;
+}
+
+
+
+/* FINMENU*/
+
+.menu {
+	
+	
+	width: 100;
+	height: 70px;
+}
+.busqueda{
+	text-align: left;
+	background: white;
+	width: 300px;
+	height: 150px;
+
+}
+
+.contenedor-general {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.seccion-1 {
+	padding: 20px;
+	display: flex;
+
+}
+
+.seccion-2 {
+	padding: 20px;
+	display: flex;
+	width: 80%;
+	height: 120%;
+}
+
+.img {
+
+	width: 80%;
+	margin: 0px 20px;
+
+
+
+	
+}
+
+
+
+.parrafos {
+	font-size: 18px;
+	margin: 0px 20px;
+	line-height: 1.5;
+	text-align: justify;
+	background: #B6CFB6;
+
+}
+
+.parrafos2 {
+	font-size: 18px;
+	margin: 5px 20px;
+	line-height: 1;
+	text-align: justify;
+	background: green;
+	width: 80%;
+	font-size: 2rem;
+	list-style-type: upper-roman;
+
+}
+
+.interno-1 {
+
+
+	margin: 5px auto;
+}
+
+.interno-2 {
+
+	padding: 20px;
+	display: flex;
+	margin: 5px auto;
+}
+
+.interno-2A {
+	margin-left: 40;
+	padding: 30px;
+	display: flex;
+	font-size: 16px;
+	margin: 0px 20px;
+	line-height: 1.5;
+	text-align: justify;
+background-color: khaki;
+
+	width: 820px;
+	height: 300px;
+
+	display: inline;
+
+
+}
+
+.interno-2b {
+	margin: 0px 20px;
+	height: 300px;
+	line-height: 1.5;
+
+}
+
+.fotter {
+	padding: 20px;
+	display: flex;
+
+	margin: 1px 36px auto;
+
+	width: 1090px;
+	height: 160px;
+
+}
+
+.notaPies {
+	margin: 0px 20px;
+	display: flex;
+	//background-color: aquamarine;
+	width: 1222px;
+	height: 126px;
+
+}
+input {
+	
+    
+        margin-top: -3px;
+        margin-right: 46px;
+        margin-bottom: -3px;
+        margin-left: -46px;
+    width: 100px;
+    height: 33px;
+    border: blue 5px solid;
+}
+
+
+
+.menu {
+	margin: 0px 50px;
+	display: flex;
+	line-height: 1.5;
+	width: 470px;
+	height: 153px;
+
+
+}
+
+.logo {
+	margin: 0px 20px;
+	display: flex;
+	line-height: 1.5;
+	width: 200px;
+	height: 120px;
+	background-color: aqua;
+}
+
+.svg {
+	width: 50px;
+	height: 50px;
+}
+
+.derechos {
+
+
+	line-height: 1.5;
+	
+	width: 500px;
+	height: 120px;
+	text-align: center;
+
+}
+
+.iconos {
+
+
+
+	line-height: 1.5;
+	font-size: 50PX;
+	text-align: right;
+
+	width: 305px;
+	height: 120px;
+}
